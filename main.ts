@@ -5,6 +5,10 @@
 // guard: the entry HTML is checked for the correct banner date, for ANY stale
 // "NOVEMBER 24/25" text, and for the presence of the DATE CHECK strip before
 // any bytes are copied, so a mis-dated render can never reach the grader.
+// Also edited in the 20:30 UTC evening session: DATE CHECK strip now carries
+// the day's date anchors (Thanksgiving + Macy's 100th parade), the WHERE IT
+// HAPPENED card gained a NOV 26 UTC timeline, hero captions carry story
+// numbers. Guard unchanged.
 // Also enforces the 1 MiB gate cap and copies the exact judged bytes to the
 // grader's /output directory (MAKEFUN_OUTPUT_DIR stands in outside the
 // container):
